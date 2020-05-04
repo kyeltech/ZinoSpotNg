@@ -1,0 +1,454 @@
+.Header_menu {
+  position: absolute;
+  text-align: center;
+  margin: 0;
+}
+.nav-container{
+  list-style: none; 
+  position: relative;
+  height: 100px;
+
+}
+.nav{
+  /* background-color: #AD4772; */
+  position: fixed;
+  width: 100%;
+  height: 60px;
+  /* right: 0%; */
+  /* padding: 0%; */
+  margin: 0%;
+  opacity: 1;
+}
+
+.nav-list{
+  display: inline;
+  margin: 90px;
+  padding: 0;
+  position: relative;
+  top: 35%;
+  align-content: center;
+  /* text-align: center; */
+  /* text-align: center; */
+}
+a{
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  /* border: 5px solid; */
+  /* width: 10px; */
+  /* height: auto; */
+}
+
+span{
+  background-color: #F2C94C;
+  color: black;
+  display: inline;
+  /* border: 4px solid; */
+  margin: 10px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 20px;
+  padding-right: 15px;
+  font-size: 15px;
+  font-weight: bold;
+  border-radius: 8px;
+font-family: Roboto;
+font-style: normal;
+}
+.landing{
+  position: absolute;
+  display: inherit;
+  width: 99%;
+  border: 4px solid;
+} 
+/* .bg{
+  position: absolute;
+  background-image: url('./Components/Images/Landing.jpg');
+  background-size: cover;
+  background-position: top;
+  min-width: 100%;
+  min-height: 100%;
+  background-position: center;
+  height: 53.5em;
+  margin: 0px;
+  background-repeat: none;
+} */
+.container-home{
+  background-image: url("https://images.unsplash.com/photo-1519389950473-47ba0277781c?ixlib=rb-1.2.1&auto=format&fit=crop&w=1500&q=80");
+  background-size: cover;
+  position: absolute;
+  display: inherit;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  /* opacity: 0.5 ; */
+  margin-top: 5%;
+  padding-right: 9.4%;
+  padding-left: 2%;
+  text-align: center;
+  border: 4px solid;
+  font-family: sans serif;
+  left: 0;
+  right: 0;
+ }  
+.company{
+  position: relative;
+  color: rgb(255, 255, 255);
+  font-size: 40px;
+}
+.country{
+  position: relative;
+  color: #F2C94C;
+  background-color: transparent;
+  font-size: 50px;
+  right: 30px;
+}
+.swipe-name{
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  width: 100%;
+  margin: 20px;
+  padding: 10px;
+  border-radius: 1px 10px !important;
+}
+.content{
+  position: relative;
+  display: initial;
+  width: auto;
+  padding: 10px;
+  bottom: 40px;
+  right: 20px;
+  color: #AD4772;
+  font-family: ta;
+  border: 4px solid;
+  font-size: 45px;
+}
+.create{
+  position: relative;
+  margin-bottom: 0;
+  border: 4px solid;
+  bottom: 3rem;
+  font-size: 20px;
+}
+.Service{
+  position: relative;
+  line-height: 40px;
+  padding: 10px;
+  margin: 5px;
+  bottom: 30rem;
+}
+.Context{
+   position: relative;
+width:15%;
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 30px;
+color: #AD4772;
+}
+
+.business{
+position: relative;
+color: #F2C94C;
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 40px;
+
+}
+.Empower{
+position: absolute;
+width: 100px;
+height: 18px;
+left: 806px;
+top: 120%;
+padding-bottom: 10px;
+padding-top:  0px;
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 35px;
+line-height: 15px;
+color: #2D9CDB;
+}
+.resource{
+  position: relative;
+width: 510px;
+height: 42px;
+top: 15px;
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 30px;
+color: black;
+}
+.source{
+  position: relative;
+  width: 35em;
+  height: 0px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 15px;
+  color: black;
+
+} 
+.Group{
+position: absolute;
+width: 500px;
+height: 250px;
+left: 0px;
+top: 160px;
+background-size: cover;
+background-position: center;
+background-image: url('./Components/Images/group.png');
+
+}
+.Achieve{
+  position: absolute;
+width: 176px;
+height: 29px;
+left: 27px;
+top: 150%;
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 25px;
+line-height: 29px;
+color: #9B51E0;
+}
+.Ensure{
+position: absolute;
+width: 404px;
+height: 47px;
+left: 27px;
+top: 155%;
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 30px;
+line-height: 26px;
+color: #333333;
+}
+.Team-pix{
+  position: absolute;
+  width: 300px;
+  height: 200px;
+  margin: 20px 0 20px;
+  left:0px;
+}
+.Heading{
+  position: absolute;
+width: 455px;
+height: 56px;
+left: 27px;
+top: 160%;
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 15px;
+line-height: 18px;
+color: #4F4F4F;
+}
+
+.Team{
+  position: absolute;
+  display: grid;
+  height: 100px;
+  padding: 0 0  10px 0;
+  left: 59.6%;
+  margin-top:20%;
+  top: 65em;
+}
+.response{
+position: relative ;
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 25px;
+line-height: 29px;
+color: #F2994A;
+/* border: 4px solid; */
+}
+.instant{
+  position: relative;
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 30px;
+line-height: 35px;
+color: #333333;
+/* border: 4px solid; */
+}
+.team{
+  position: relative;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 18px;
+  color: #4F4F4F; 
+  /* border: 4px  solid; */
+}
+.smartwork{
+  position: absolute;
+  width: 500px;
+  height: 250px;
+left: 805px;
+/* top: 860px; */
+background-size: cover;
+background-position: center;
+background: url('./Components/Images/smarkwork.png');
+/* border: 4px solid; */
+}
+.conference{
+background-image: url('./Components/Images/conference.png');
+background-position: center;
+background-size: contain;
+position: relative;
+width: 300px;
+height: 189.07px;
+left: 27px;
+top: 0%;
+}
+.assign{
+  position: relative;
+width: 162px;
+height: 27px;
+left: 27px;
+top: 205%;
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 25px;
+line-height: 29px;
+color: #219653;
+}
+.talent{
+position: relative;
+width: 352px;
+height: 34px;
+left: 27px;
+top: 207%;
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 30px;
+line-height: 35px;
+color: #333333;
+}
+.probs{
+  position: relative;
+width: 455px;
+height: 56px;
+left: 27px;
+top: 214%;
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 15px;
+line-height: 18px;
+color: #4F4F4F;
+}
+
+.footer-container{
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 423px;
+  left: 0px;
+  top: 2022px;
+  background: #AD4772;
+}
+.footer{
+  position: relative;
+  display: flex;
+  margin: 6px;
+  justify-content: center;
+  font-family: 'Roboto';
+  color: #ffffff;
+}
+.footer-company{
+position: absolute; 
+ width: 89px;
+height: 23px;
+top: 20px;
+margin-left: -45%;
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+color: #FFFFFF;
+}
+.line{
+  align-items: flex-start;
+  width: 212px;
+  height: 0px;
+  right: 08%;
+  top: 17%;
+}
+.footer-Location{
+position: relative;
+width: 89px;
+height: 23px;
+top: 20px; 
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+color: #FFFFFF;
+}
+.Location{
+  position: relative;
+  display: inline;
+  list-style: none;
+  font-size: 15px;
+  font-family: Roboto;
+font-style: normal;
+font-size: 20px;
+line-height: 100px;
+}
+
+.lineIdx{
+  width: 212px;
+  height: 0px;
+  left: 594px;
+  top: 17%;
+}
+.footer-Jobs{
+position: relative;
+width: 10%;
+height: 23px;
+left: 360px;
+top: 20px;
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+color: #FFFFFF;
+}
+.lineIn{
+  width: 212px;
+  height: 0px;
+   left: 78.5%;
+  top: 17%;
+}
+.weAre{
+  position: relative;
+  display: inline;
+  padding: 10px;
+  list-style: none;
+  font-size: 15px;
+  font-family: Roboto;
+font-style: normal;
+font-size: 20px;
+line-height: 37px;
+}
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
